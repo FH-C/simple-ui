@@ -33,14 +33,14 @@ importers:
       '@vitejs/plugin-vue-jsx': ^3.0.0
       less: ^4.1.3
       less-loader: ^11.1.0
-      simple-ui: workspace:^0.0.0
+      simple-ui-vue: workspace:^0.0.0
       typescript: ~4.8.4
       vitepress: 1.0.0-alpha.60
       vue: ^3.3.4
       vue-tsc: ^1.2.0
     dependencies:
       '@arco-design/web-vue': 2.48.1_vue@3.3.4
-      simple-ui: link:../../elephant-ui
+      simple-ui-vue: link:../../simple-ui
       vitepress: 1.0.0-alpha.60_5aqkcyq7rcusevo57r33j35bp4
       vue: 3.3.4
     devDependencies:
@@ -51,7 +51,7 @@ importers:
       typescript: 4.8.4
       vue-tsc: 1.8.5_typescript@4.8.4
 
-  packages/elephant-ui:
+  packages/simple-ui:
     specifiers:
       '@arco-design/web-vue': ^2.48.1
       vue: ^3.3.4
@@ -70,7 +70,7 @@ importers:
       less-loader: ^11.1.0
       npm-run-all: ^4.1.5
       pinia: ^2.0.32
-      simple-ui: workspace:^0.0.0
+      simple-ui-vue: workspace:^0.0.0
       typescript: ~4.8.4
       unplugin-auto-import: ^0.16.6
       unplugin-vue-components: ^0.24.1
@@ -81,7 +81,7 @@ importers:
     dependencies:
       '@arco-design/web-vue': 2.48.1_vue@3.3.4
       pinia: 2.1.4_typescript@4.8.4+vue@3.3.4
-      simple-ui: link:../elephant-ui
+      simple-ui-vue: link:../simple-ui
       vue: 3.3.4
       vue-router: 4.2.4_vue@3.3.4
     devDependencies:

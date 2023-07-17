@@ -1,5 +1,5 @@
 {
-  "name": "simple-ui",
+  "name": "simple-ui-vue",
   "version": "0.0.0",
   "private": true,
   "main": "components/index.ts",

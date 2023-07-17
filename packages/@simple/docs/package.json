@@ -1,5 +1,5 @@
 {
-  "name": "@simple/docs",
+  "name": "@simple/docs-vue",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@arco-design/web-vue": "^2.48.1",
-    "simple-ui": "workspace:^0.0.0",
+    "simple-ui-vue": "workspace:^0.0.0",
     "vitepress": "1.0.0-alpha.60",
     "vue": "^3.3.4"
   },
