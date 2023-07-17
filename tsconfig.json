@@ -1,0 +1,33 @@
+{
+  "include": [
+    "env.d.ts",
+    "packages/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.md",
+    "packages/**/*.d.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "allowJs": true,
+    "declaration": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "simple-ui": [
+        "packages/components/index.ts"
+      ]
+    }
+  }
+}

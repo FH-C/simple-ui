@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "vue.vscode-typescript-vue-plugin",
+    "antfu.unocss",
+    "antfu.vite"
+  ]
+}
