@@ -1,7 +1,7 @@
 # Card
 
 <script setup lang="ts">
-import { Card } from 'simple-ui'
+import { Card } from 'simple-ui-vue'
 import {Button} from '@arco-design/web-vue'
 </script>
 <Card></Card>
@@ -13,6 +13,6 @@ import {Button} from '@arco-design/web-vue'
 </template>
 
 <script setup lang="ts">
-import { Card } from 'simple-ui'
+import { Card } from 'simple-ui-vue'
 </script>
 ```

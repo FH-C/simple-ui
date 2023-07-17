@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-// import { Card } from 'simple-ui'
-import test from './components/test.vue';
-
+import { RouterView } from "vue-router";
+// import { Card } from 'simple-ui-vue'
+import test from "./components/test.vue";
 </script>
 
 <template>
@@ -11,5 +10,5 @@ import test from './components/test.vue';
 </template>
 
 <style lang="less">
-@import './index.less';
+@import "./index.less";
 </style>
